@@ -34,10 +34,20 @@ namespace QuickSort051
             Console.WriteLine("\n=====================");
 
             //get array element
-            for(int i = 0; i < n; i++)
+            for (int i = 0; i < n; i++)
             {
-
+                Console.Write("<" + (i + 1) + ">");
+                string s1 = Console.ReadLine();
+                arr[i] = Int32.Parse(s1);
             }
+        }
+        //swaps the element at index x with the element at index y
+        void swap(int x, int y)
+        {
+
+        }
+
+
         }
     }
 }
