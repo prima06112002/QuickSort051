@@ -32,6 +32,12 @@ namespace QuickSort051
             Console.WriteLine("\n=====================");
             Console.WriteLine("Enter array Element");
             Console.WriteLine("\n=====================");
+
+            //get array element
+            for(int i = 0; i < n; i++)
+            {
+
+            }
         }
     }
 }
