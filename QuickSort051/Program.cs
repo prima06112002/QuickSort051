@@ -49,7 +49,7 @@ namespace QuickSort051
             arr[x] = arr[y];
             arr[y] = temp;
         }
-        public void q_short(int low,int high)
+        public void q_short(int low, int high)
         {
             int pivot, i, j;
             if (low > high)
@@ -105,6 +105,12 @@ namespace QuickSort051
             //sort the list on the right of pivot using quick sort
             q_short(j + 1, low);
 
+        }
+        void display()
+        {
+            Console.WriteLine("\n-------------------");
+            Console.WriteLine(" Sorted array element");
+            Console.WriteLine("---------------------");
         }
 
 
