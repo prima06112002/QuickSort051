@@ -29,6 +29,9 @@ namespace QuickSort051
                 else
                     Console.WriteLine("\narray can have maximum 20 element \n");
             }
+            Console.WriteLine("\n=====================");
+            Console.WriteLine("Enter array Element");
+            Console.WriteLine("\n=====================");
         }
     }
 }
