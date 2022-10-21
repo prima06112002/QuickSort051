@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace QuickSort051
 {
     class program
-    { 
-    //aray of integers to hold values
-    private int[] arr = new int[20];
-    private int cmp_count = 0; // number of comparasion
-    private int mov_count = 0; // number of data movement
+    {
+        //aray of integers to hold values
+        private int[] arr = new int[20];
+        private int cmp_count = 0; // number of comparasion
+        private int mov_count = 0; // number of data movement
 
         // Number of element in array
         private int n;
@@ -30,6 +30,8 @@ namespace QuickSort051
                     Console.WriteLine("\narray can have maximum 20 element \n");
             }
         }
+    }
+}
 
       
 
