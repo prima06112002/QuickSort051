@@ -118,6 +118,11 @@ namespace QuickSort051
             }
             Console.WriteLine("\nNumber of comparison:" + cmp_count);
             Console.WriteLine("\nNumber of data movemenet:" + mov_count);
+
+        }
+        int getSize()
+        {
+            return n;
         }
 
 
